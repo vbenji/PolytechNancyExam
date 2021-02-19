@@ -1,0 +1,44 @@
+# Exam Docker	
+
+1) Cloner le projet https://github.com/vbenji/PolytechNancyExam
+
+2) Définir un service pour la base de donnée MongoDB dans un fichier docker-compose.yml
+
+3) Utiliser un volume pour la persistance des données de la base de donnée
+
+4) Créer un Dockerfile pour le projet express-server et builder votre image
+
+5) Modifier le projet pour externaliser la configuration du projet express-server et utiliser des variables d'environnements
+
+6) Définir le service pour le projet express-server dans le docker-compose.yml
+
+7) Utiliser un network pour connecter la base de donnée à l'express-server
+
+8) Configurer la/les bonnes variables d'envrionnements pour l'express-server afin de contacter la base de donnée
+
+9) Créer le dockerfile pour l'angular-client et builder votre image
+
+10) Définir le service associé dans le docker-compose.yml"
+
+11) Faire fonctionner les containers ensemble et faire valider par Benjamin
+
+12) Qu'est ce que Docker ? A quoi cela sert-il ?
+
+14) Pourquoi doit-on utiliser la commande 'ng serve -H 0.0.0.0' pour faire fonctionner correctement l'angular-client depuis une container docker
+
+13) Rediger un autre type de Dockerfile pour le projet angular-client.
+
+14) Surprenez moi
+
+-------------------------------------------------------------------------------
+
+Les deux projets ont été developpé avec nodejs en version 6
+Utiliser la dernière version de la base de donnée MongoDB
+
+-------------------------------------------------------------------------------
+
+Rendre un zip avec:
+- Un fichier de prise de note et réponses aux questions
+- Les dockerfiles
+- Le docker-compose
+- l'historique de vos commandes "history > history.txt"
